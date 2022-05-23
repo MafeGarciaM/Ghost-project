@@ -42,7 +42,7 @@ Abra una consola de comandos donde desee clonar el repositorio y escriba los sig
 https://github.com/MafeGarciaM/Ghost-project.git
 ```
 ```
-cd ghost-bdd
+cd ghost-project
 ```
 ### Cypress
 Para correr la porción de Cypress del proyecto siga las siguientes instrucciones
