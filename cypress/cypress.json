@@ -4,7 +4,7 @@
         "login_url": "http://localhost:2368/ghost/#/signin",
         "admin_url": "http://localhost:2368/ghost/#/dashboard",
         "username": "mf.garciam1@uniandes.edu.co",
-        "password":"Uniandes2022",
+        "password":"",
         "wrong_password": "wrong password",
         "wrong_user": "wrong user",
         "ghost_version": "4.42",
