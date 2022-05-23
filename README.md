@@ -233,6 +233,12 @@ Para la correcta ejecucción de los escenarios de prueba para esta sección aseg
 
 Ejemplo: "data_source": "PRIORI"
 
+En caso de ser necesario instalar la dependencia mocha, mediante el comando:
+
+```
+npm install mocha
+```
+
 ## Descripción de datos generados
 
 ### Datos a Priori
