@@ -16,10 +16,10 @@ Para poder ejecutar estas pruebas de la mejor manera posible se recomienda cumpl
 - Crear los archivos cypress.env.json y properties.json como se indica en la guía de instalación de cada herramienta. En ambos archivos debe de agregar información de la versión y el puerto en el que se esté corriendo Ghost para que las pruebas puedan funcionar de manera correcta. (Nota: solamente se tendrá en cuenta esta información para las pruebas que han sido adaptadas para ambas versiones)
 - Instalar BackstopJS a nivel global en su máquina
 
-Nota: En caso de generarse la siguiente excepcion _________________________________________ ejecutar el comando a continuación para la instalación de mocha:
-   ```
-   comando
-   ```
+Nota: En caso de generarse algún error con la dependencia mocha, ejecutar el comando a continuación para la instalación de mocha:
+```
+npm install mocha
+```
 
 ## Indice
 1. [Guía de instalación](#guía-de-instalación)
@@ -232,12 +232,6 @@ Para la correcta ejecucción de los escenarios de prueba para esta sección aseg
 - RUNTIME: Para obtener los datos con la técnica de escenario aleatorio.
 
 Ejemplo: "data_source": "PRIORI"
-
-En caso de ser necesario instalar la dependencia mocha, mediante el comando:
-
-```
-npm install mocha
-```
 
 ## Descripción de datos generados
 
