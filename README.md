@@ -34,6 +34,9 @@ npm install mocha
 8. [Guía para realización de pruebas con datos](#guía-para-realización-de-pruebas-con-datos)
 9. [Descripción de datos generados](#descripción-de-datos-generados)
 10. [Descripción de escenarios de prueba con generación de datos](#descripción-de-escenarios-de-prueba-con-generación-de-datos)
+	-[Funcionalidad de post](#funcionalidad-de-post)
+	-[Funcionalidad de pages](#funcionalidad-de-pages)
+	-[Funcionalidad de members](#funcionalidad-de-members)
 
 ## Guía de instalación
 Abra una consola de comandos donde desee clonar el repositorio y escriba los siguientes comandos
@@ -282,7 +285,7 @@ Se ejecutan los mismos pasos que en el apartado anterior, con la diferencia de q
 
 ## Descripción de escenarios de prueba con generación de datos
 
-### Funcionalidad de Post
+### Funcionalidad de post
 
 A continuación se detallan los pasos de cada uno de los escenarios usados para la gestión de post
 
@@ -541,5 +544,5 @@ A continuación se detallan los pasos de cada uno de los escenarios usados para 
 	programa el post
 
 
-### Funcionalidad de Pages
-### Funcionalidad de Members
+### Funcionalidad de pages
+### Funcionalidad de members
