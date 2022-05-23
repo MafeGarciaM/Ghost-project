@@ -216,3 +216,4 @@ A continuación se detallan los escenarios de prueba para la regresión visual. 
 - Hace falta un foro o más espacios de soporte
 - Su sintaxis genera inconsistencias ya que dada la falta de documentación no es facil detectar en que punto la prueba puede estar mal escrita o si falta alguna dependencia o librería para ejecutar
 
+## Descripción de escenarios de generación de datos
