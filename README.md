@@ -39,7 +39,7 @@ npm install mocha
 Abra una consola de comandos donde desee clonar el repositorio y escriba los siguientes comandos
 
 ```
-git clone https://github.com/dababativa/ghost-bdd.git
+https://github.com/MafeGarciaM/Ghost-project.git
 ```
 ```
 cd ghost-bdd
@@ -237,13 +237,22 @@ Ejemplo: "data_source": "PRIORI"
 
 ### Datos a Priori
 
+
+#### Pages
+
 ![image](https://user-images.githubusercontent.com/96266662/169731370-e70064d7-af84-47be-a76c-6f2e981193ad.png)
 
 Para generar los datos a priori, utilizamos la herramiento Mockaroo en su versión online y generamos archivos tipo JSON, que luego importamos en Cypress. La Utilización de los datos se hizo de la siguiente forma:
 
 #### Members
-#### Pages
 #### Post
+
+Se generan dos archivos para datos positivos y negativos con las siguientes variables:
+
+![image](https://user-images.githubusercontent.com/98669550/169751156-aaac040a-21ff-4989-804e-a92849a2c8cb.png)
+![image](https://user-images.githubusercontent.com/98669550/169751193-b08d216a-1616-4d42-be7c-9d63cd7a2ad2.png)
+
+Nota: Para los escenarios de Creación de post se utilizaron datos A Priori (Escenarios de la 1 al 9)
 
 ### Datos pseudo
 
@@ -267,10 +276,6 @@ Se establece una semilla con un valor fijo para generar siempre el mismo pool de
 faker.seed(1)
 ```
 
-#### Members
-#### Pages
-#### Post
-
 ### Datos aleatorios
 
 Se ejecutan los mismos pasos que en el apartado anterior, con la diferencia de que se no establece ninguna semilla y por tanto los datos cambian en cada ejecución.
@@ -278,5 +283,287 @@ Se ejecutan los mismos pasos que en el apartado anterior, con la diferencia de q
 ## Descripción de escenarios de prueba con generación de datos
 
 ### Funcionalidad de Post
+
+A continuación se detallan los pasos de cada uno de los escenarios usados para la gestión de post
+
+1. Creación de post normal
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Crea el post
+2. Creación de post con titulo fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo errado
+	Ingresa Body correcto
+	Crea el post
+3. Creación de post con Body fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body errado
+	Crea el post
+4. Creación de post con Titulo y Body fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo errado
+	Ingresa Body errado
+	Crea el post
+5. Creación de post con titulo con caracteres especiales
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo con simbolos
+	Ingresa Body correcto
+	Crea el post
+6. Creación de post con body con caracteres especiales
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body con simbolos
+	Crea el post
+6. Creación de post con titulo y body con caracteres especiales
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo con simbolos
+	Ingresa Body con simbolos
+	Crea el post
+7. Creación de un post con titulo vacío
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa Body correcto
+	Crea el post
+8. Creación de un post con Body vacío
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Crea el post
+9. Creación de post sin titulo ni body
+	Inicia sesion
+	Ingresa a creación de post
+	Crea el post
+
+10. Edición de post normal
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal	
+	Modifica titulo correcto
+	Modifica Body correcto
+	Edita el post
+11. Edición de post con titulo fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Modifica titulo errado
+	Edita el post
+12. Edición de post con Body fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Modifica Body errado
+	Edita el post
+13. Edición de post con Titulo y Body fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Modifica titulo errado
+	Modifica Body errado
+	Edita el post
+14. Edición de post con titulo con caracteres especiales
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Modifica titulo con simbolos
+	Edita el post
+15. Edición de post con body con caracteres especiales
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Modifica Body con simbolos
+	Edita el post
+16. Edición de post con titulo y body con caracteres especiales
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Modifica titulo con simbolos
+	Modifica Body con simbolos
+	Edita el post
+17. Edición de un post con titulo vacío
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Elimina contenido de titulo
+	Edita el post
+18. Edición de un post con Body vacío
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Elimina contenido de Body
+	Edita el post
+19. Edición de post sin titulo ni body
+	Inicia sesion
+	Ingresa a creación de post
+	Crea un post normal
+	Elimina contenido del titulo
+	Elimina contenido del body
+	Edita el post
+
+20. Programación de post normal
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcta
+	Ingresa mes correcto
+	Ingresa hora correcta
+	Ingresa minutos correctos
+	programa el post 
+
+21. Programación de post dia fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia incorrecto
+	Ingresa mes correcto
+	Ingresa año correcto
+	Ingresa hora correcta
+	Ingresa minutos correctos
+	programa el post 
+22. Programación de post mes fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes incorrecto
+	Ingresa año correcto
+	Ingresa hora correcta
+	Ingresa minutos correctos
+	programa el post
+23. Programación de post hora fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes correcto
+	Ingresa año correcto
+	Ingresa hora incorrecta
+	Ingresa minutos correctos
+	programa el post 
+24. Programación de post minutos fuera de frontera
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes correcto
+	Ingresa año correcto
+	Ingresa hora correcta
+	Ingresa minutos incorrecto
+	programa el post 
+25. Programación de post mismo dia hora anterior
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes correcto
+	Ingresa hora anterior
+	Ingresa minutos anterior
+	programa el post
+26. Programación de post día anterior
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia anterior
+	Ingresa mes correcto
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+27. Programación de post mes anterior
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes anterior
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+26. Programación de post fecha años posteriores
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia anterior
+	Ingresa mes correcto
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+27. Programación de post fecha formato "Mayo-22-2022"
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia 
+	Ingresa mes 
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+27. Programación de post fecha con letras
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia incorrecto
+	Ingresa mes incorrecto
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+28. Programación de post hora con letras
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes correcto
+	Ingresa hora Incorrecto
+	Ingresa minutos Incorrecto
+	programa el post
+28. Programación de post hora y fecha con letras
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia Incorrecto
+	Ingresa mes Incorrecto
+	Ingresa hora Incorrecto
+	Ingresa minutos Incorrecto
+	programa el post
+29. Programación de post fecha con simbolos
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia incorrecto
+	Ingresa mes incorrecto
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+30. Programación de post hora con simbolos
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes correcto
+	Ingresa hora Incorrecto
+	Ingresa minutos Incorrecto
+	programa el post
+
+
 ### Funcionalidad de Pages
 ### Funcionalidad de Members
