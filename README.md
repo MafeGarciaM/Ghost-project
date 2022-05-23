@@ -255,8 +255,6 @@ Se generan dos archivos para datos positivos y negativos con las siguientes vari
 ![image](https://user-images.githubusercontent.com/98669550/169751156-aaac040a-21ff-4989-804e-a92849a2c8cb.png)
 ![image](https://user-images.githubusercontent.com/98669550/169751193-b08d216a-1616-4d42-be7c-9d63cd7a2ad2.png)
 
-Nota: Para los escenarios de Creación de post se utilizaron datos A Priori (Escenarios de la 1 al 9)
-
 ### Datos pseudo
 
 Se hizo uso de la librería Faker de la siguiente forma:
@@ -288,6 +286,7 @@ Se ejecutan los mismos pasos que en el apartado anterior, con la diferencia de q
 ### Funcionalidad de post
 
 A continuación se detallan los pasos de cada uno de los escenarios usados para la gestión de post
+Los 30 escenarios pueden ser ejecutados con el tipo de datos que se desee de acuerdo con lo que se edite en la variable de entorno "data_source": PRIORI,PSEUDO,RUNTIME
 
 1. Creación de post normal
 	Inicia sesion
