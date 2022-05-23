@@ -224,7 +224,7 @@ A continuación se detallan los escenarios de prueba para la regresión visual. 
 - Hace falta un foro o más espacios de soporte
 - Su sintaxis genera inconsistencias ya que dada la falta de documentación no es facil detectar en que punto la prueba puede estar mal escrita o si falta alguna dependencia o librería para ejecutar
 
-## Guía para realización de pruebas con datos
+## Semana 7: Guía para realización de pruebas con datos
 
 Para la correcta ejecucción de los escenarios de prueba para esta sección asegurarse de generer y/o modificar la variable de entorno data_source de la siguiente forma:
 - PRIORI: Para obtener los datos con la técnica pool de datos a-priori.
