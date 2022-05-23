@@ -3,11 +3,12 @@
     "env": {
         "login_url": "http://localhost:2368/ghost/#/signin",
         "admin_url": "http://localhost:2368/ghost/#/dashboard",
-        "username": "da.babativa@uniandes.edu.co",
+        "username": "d.leyvad@uniandes.edu.co",
         
         "wrong_password": "wrong password",
         "wrong_user": "wrong user",
         "ghost_version": "4.42",
-        "ghost_port": "2368"
+        "ghost_port": "2368",
+        "data_source": "PRIORI"
     }
 }
