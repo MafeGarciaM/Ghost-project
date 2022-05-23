@@ -80,7 +80,7 @@ export default class PostPage {
         return this.getCalendarButton().click()
     }
     getDateCalendar() {
-        return cy.get('button[data-date="2022-05-20"]')
+        return cy.get('button[data-date="2022-06-20"]')
     }
     clickDateCalendar() {
         return this.getDateCalendar().click()
@@ -103,5 +103,25 @@ export default class PostPage {
     assertAlertMessage(alert){
         expect(this.getAlert().contains(alert)).to.exist   
     }
-    
+    getDateLabel() {
+        return cy.get('input[placeholder="YYYY-MM-DD"]')
+    }
+    typePostDate(date) {
+        return this.getDateLabel().type(`{selectAll}${date}`)
+    }
+    getHourLabel() {
+        return cy.get('.gh-date-time-picker-time input')
+    }
+    typePostHour(date) {
+        return this.getHourLabel().type(`{selectAll}${date}`)
+    }
+    getDateError(){
+        return cy.get('.gh-date-time-picker-error')
+    }
+    assertAlertDateMessage(alert){
+        expect(this.getDateError().contains(alert)).to.exist   
+    }
+
+
 }
+  
