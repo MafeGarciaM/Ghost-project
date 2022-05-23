@@ -97,4 +97,11 @@ export default class PostPage {
     assertPostExists(postTitle){
         expect(this.getPost().contains(postTitle)).to.exist  
     }
+    getAlert(){
+        return cy.get('.gh-alert-content')
+    }
+    assertAlertMessage(alert){
+        expect(this.getAlert().contains(alert)).to.exist   
+    }
+    
 }
