@@ -286,7 +286,7 @@ Se ejecutan los mismos pasos que en el apartado anterior, con la diferencia de q
 ### Funcionalidad de post
 
 A continuación se detallan los pasos de cada uno de los escenarios usados para la gestión de post
-Los 30 escenarios pueden ser ejecutados con el tipo de datos que se desee de acuerdo con lo que se edite en la variable de entorno "data_source": PRIORI,PSEUDO,RUNTIME
+Los primeros 20 escenarios pueden ser ejecutados con el tipo de datos que se desee de acuerdo con lo que se edite en la variable de entorno "data_source": PRIORI,PSEUDO,RUNTIME, los siguientes 10 con PSEUDO y RUNTIME
 
 1. Creación de post normal
 	Inicia sesion
@@ -487,7 +487,7 @@ Los 30 escenarios pueden ser ejecutados con el tipo de datos que se desee de acu
 	Ingresa minutos incorrecto
 	programa el post 
 	
-26. Programación de post mismo dia hora anterior
+26. Programación de post dia y hora fuera de frontera
 	Inicia sesion
 	Ingresa a creación de post
 	Ingresa titulo correcto
@@ -498,29 +498,7 @@ Los 30 escenarios pueden ser ejecutados con el tipo de datos que se desee de acu
 	Ingresa minutos anterior
 	programa el post
 	
-27. Programación de post día anterior
-	Inicia sesion
-	Ingresa a creación de post
-	Ingresa titulo correcto
-	Ingresa Body correcto
-	Ingresa dia anterior
-	Ingresa mes correcto
-	Ingresa hora correcto
-	Ingresa minutos correcto
-	programa el post
-	
-28. Programación de post mes anterior
-	Inicia sesion
-	Ingresa a creación de post
-	Ingresa titulo correcto
-	Ingresa Body correcto
-	Ingresa dia correcto
-	Ingresa mes anterior
-	Ingresa hora correcto
-	Ingresa minutos correcto
-	programa el post
-	
-29. Programación de post fecha con letras
+27. Programación de post fecha con letras
 	Inicia sesion
 	Ingresa a creación de post
 	Ingresa titulo correcto
@@ -531,7 +509,29 @@ Los 30 escenarios pueden ser ejecutados con el tipo de datos que se desee de acu
 	Ingresa minutos correcto
 	programa el post
 	
-30. Programación de post hora con letras
+28. Programación de post hora con letras
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia correcto
+	Ingresa mes correcto
+	Ingresa hora Incorrecto
+	Ingresa minutos Incorrecto
+	programa el post
+	
+29. Programación de post fecha con simbolo
+	Inicia sesion
+	Ingresa a creación de post
+	Ingresa titulo correcto
+	Ingresa Body correcto
+	Ingresa dia incorrecto
+	Ingresa mes incorrecto
+	Ingresa hora correcto
+	Ingresa minutos correcto
+	programa el post
+	
+30. Programación de post hora con simbolo
 	Inicia sesion
 	Ingresa a creación de post
 	Ingresa titulo correcto
