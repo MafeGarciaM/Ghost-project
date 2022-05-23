@@ -237,7 +237,9 @@ Ejemplo: "data_source": "PRIORI"
 
 ### Datos a Priori
 
-Utilización de Json de datos de la siguiente forma:
+![image](https://user-images.githubusercontent.com/96266662/169731370-e70064d7-af84-47be-a76c-6f2e981193ad.png)
+
+Para generar los datos a priori, utilizamos la herramiento Mockaroo en su versión online y generamos archivos tipo JSON, que luego importamos en Cypress. La Utilización de los datos se hizo de la siguiente forma:
 
 #### Members
 #### Pages
@@ -245,7 +247,25 @@ Utilización de Json de datos de la siguiente forma:
 
 ### Datos pseudo
 
-Utilización de librería Faker de la siguiente forma:
+Se hizo uso de la librería Faker de la siguiente forma:
+
+Se instaló Faker en Cypress ejecutando el comando:
+
+```
+npm install @faker-js/faker --save-dev
+```
+
+Se importó mediante la siguiente línea de código:
+
+```
+const { faker } = require('@faker-js/faker');
+```
+
+Se establece una semilla con un valor fijo para generar siempre el mismo pool de datos mediante la siguiente línea de código:
+
+```
+faker.seed(1)
+```
 
 #### Members
 #### Pages
@@ -253,7 +273,7 @@ Utilización de librería Faker de la siguiente forma:
 
 ### Datos aleatorios
 
-Utilización de librería Faker de la siguiente forma:
+Se ejecutan los mismos pasos que en el apartado anterior, con la diferencia de que se no establece ninguna semilla y por tanto los datos cambian en cada ejecución.
 
 ## Descripción de escenarios de prueba con generación de datos
 
