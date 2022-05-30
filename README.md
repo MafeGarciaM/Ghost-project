@@ -545,3 +545,33 @@ Los primeros 20 escenarios pueden ser ejecutados con el tipo de datos que se des
 
 ### Funcionalidad de pages
 ### Funcionalidad de members
+1. Creación de members normal Inicia sesion Ingresa a creación de members Ingresa datos como nombre, email, label, nota Crea el miembro
+2. Creación members nombre repetido, Ingresa a creación de members Ingresa datos como nombre, email, label, nota Crea el miembro, luego intenta crearlo con nombre repetido
+3. crear miembro solo nombre, Ingresa a creación de members Ingresa solo nombre Crea el miembro
+4. crear miembro solo email, Ingresa a creación de members Ingresa solo email Crea el miembro
+5. crear miembro solo Label, Ingresa a creación de members Ingresa solo email Crea el miembro
+6. crear miembro solo nota, Ingresa a creación de members Ingresa solo nota Crea el miembro
+7. crear miembro todo vacio, Ingresa a creación de members no ingresa datos Crea el miembro
+8. crear miembro nombre fuera de frontera, Ingresa a creación de members nombre fuera de frontera Crea el miembro
+9. crear miembro email fuera de frontera, Ingresa a creación de members email fuera de frontera Crea el miembro
+10. crear miembro label fuera de frontera
+11. crear miembro note fuera de frontera
+12. crear miembro nombre caracteres especiales
+13. crear miembro email caracteres especiales
+14. crear miembro label caracteres especiales
+15. crear miembro note caracteres especiales
+16. crear miembro todo numeros
+17. crear miembro todo numeros email normal
+18. editar miembro todo vacio
+19. editar miembro todo normal
+20. editar miembro dejar solo label
+21. editar miembro dejar solo nombre
+22. editar miembro dejar solo email
+23. editar miembro dejar solo note
+24. editar miembro todo números
+25. editar miembro todo números email bien
+26.  editar miembro nombre caracteres especiales
+27.  editar miembro email caracteres especiales
+28.  editar miembro label caracteres especiales
+29.  editar miembro note caracteres especiales
+30.  editar miembro todo caracteres especiales
