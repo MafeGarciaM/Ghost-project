@@ -6,7 +6,7 @@
         "username": "mf.garciam1@uniandes.edu.co",
         "password":"",
         "wrong_password": "wrong password",
-        "wrong_user": "wrong user",
+        "wrong_user": "f.garciam1@uniandes.edu.co",
         "ghost_version": "4.42",
         "ghost_port": "2368",
         "data_source": "PRIORI"
