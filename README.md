@@ -637,3 +637,7 @@ Los primeros 20 escenarios pueden ser ejecutados con el tipo de datos que se des
 28.  editar miembro label caracteres especiales
 29.  editar miembro note caracteres especiales
 30.  editar miembro todo caracteres especiales
+
+## Documentación de la Estrategia de pruea¿bas final
+
+En la wiki del presente repositorio se encuentra la documentación de la estrategia con us respectivo video explicativo
