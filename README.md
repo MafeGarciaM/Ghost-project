@@ -544,6 +544,68 @@ Los primeros 20 escenarios pueden ser ejecutados con el tipo de datos que se des
 
 
 ### Funcionalidad de pages
+
+1. Creación de una página normal
+  
+2. Creación de una página con titulo fuera de frontera
+  
+3. Creación de una página con Body fuera de frontera
+  
+4. Creación de una página con Titulo y Body fuera de frontera
+  
+5. Creación de una página con titulo con caracteres especiales
+  
+6. Creación de una página con body con caracteres especiales
+  
+7. Creación de una página con titulo y body con caracteres especiales
+  
+8. Creación de un post con titulo vacío
+  
+9. Creación de un post con Body vacío
+  
+10. Creación de una página sin titulo ni body
+
+11. Edición de una página normal
+  
+12. Edición de una página con titulo fuera de frontera
+  
+13. Edición de una página con Body fuera de frontera
+  
+14. Edición de una página con Titulo y Body fuera de frontera
+  
+15. Edición de una página con titulo con caracteres especiales
+  
+16. Edición de una página con body con caracteres especiales
+  
+17. Edición de una página con titulo y body con caracteres especiales
+  
+18. Edición de un post con titulo vacío
+  
+19. Edición de un post con Body vacío
+  
+20. Edición de una página sin titulo ni body
+
+21. Programación de una página normal
+
+22. Programación de una página dia fuera de frontera
+  
+23. Programación de una página mes fuera de frontera
+  
+24. Programación de una página hora fuera de frontera
+  
+25. Programación de una página minutos fuera de frontera
+  
+26. Programación de una página dia y hora fuera de frontera
+  
+27. Programación de una página fecha con letras
+  
+28. Programación de una página hora con letras
+  
+29. Programación de una página fecha con simbolo
+  
+30. Programación de una página hora con simbolo
+
+
 ### Funcionalidad de members
 1. Creación de members normal Inicia sesion Ingresa a creación de members Ingresa datos como nombre, email, label, nota Crea el miembro
 2. Creación members nombre repetido, Ingresa a creación de members Ingresa datos como nombre, email, label, nota Crea el miembro, luego intenta crearlo con nombre repetido
