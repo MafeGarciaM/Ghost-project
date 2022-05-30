@@ -13,8 +13,9 @@ Para poder ejecutar estas pruebas de la mejor manera posible se recomienda cumpl
 - Correr la versión 3.42.0 de Ghost para las pruebas especificas en la descripción de escenarios de pruebas de regresión lineal
 - Instalar Kraken a nivel global en su máquina (No requerido unicamente para pruebas E2E)
 - Instalar Cypress a nivel global en su máquina
-- Crear los archivos cypress.env.json y properties.json como se indica en la guía de instalación de cada herramienta. En ambos archivos debe de agregar información de la versión y el puerto en el que se esté corriendo Ghost para que las pruebas puedan funcionar de manera correcta. (Nota: solamente se tendrá en cuenta esta información para las pruebas que han sido adaptadas para ambas versiones)
+- Crear los archivos cypress.json y properties.json como se indica en la guía de instalación de cada herramienta. En ambos archivos debe de agregar información de la versión y el puerto en el que se esté corriendo Ghost para que las pruebas puedan funcionar de manera correcta. (Nota: solamente se tendrá en cuenta esta información para las pruebas que han sido adaptadas para ambas versiones)
 - Instalar BackstopJS a nivel global en su máquina
+- Ingresar igualmente en el archivo cypress.json el usuario y contraseña de ghost se la persona que realizará las pruebas para que estas se ejecuten correctamente.
 
 **_NOTA:_** En caso de generarse algún error con la dependencia mocha, ejecutar el comando a continuación para la instalación de mocha:
 ```
